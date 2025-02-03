@@ -72,3 +72,11 @@ FROM spotify_data
 GROUP BY reason_start
 ORDER BY No_Occasions DESC;  -- order from the highest to the lowest
 -- Insights: I've found a row with no name but has 143 values 
+
+-- Check the number of years in the timestamp 'ts' column
+SELECT DISTINCT EXTRACT(YEAR FROM ts) AS Years
+FROM spotify_data
+ORDER BY Years DESC; -- order from the latest year to the oldest
+-- Insights: Data contains values from 2013-2024
+-- Further analysis: We can visualize ranking of the number of tracks listened in each year
+
