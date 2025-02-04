@@ -4,7 +4,7 @@
 -- Step 1: Handle missing values
 UPDATE spotify_data
 SET platform = 'Unknown'
-WHERE platform IS NULL;
+WHERE platform IS NULL OR platform = 'NULL';
 
 UPDATE spotify_data
 SET ms_played = 0
