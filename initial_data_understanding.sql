@@ -64,14 +64,14 @@ SELECT DISTINCT reason_end, COUNT(reason_end) AS No_Occasions
 FROM spotify_data
 GROUP BY reason_end
 ORDER BY No_Occasions DESC;  -- order from the highest to the lowest
--- Insights: I've found a row with no name but has 116 values 
+-- Insights: I've found a blank space with no name but has 116 values 
 
 -- Check for unique 'reason_start' values and the number of times each happened
 SELECT DISTINCT reason_start, COUNT(reason_end) AS No_Occasions
 FROM spotify_data
 GROUP BY reason_start
 ORDER BY No_Occasions DESC;  -- order from the highest to the lowest
--- Insights: I've found a row with no name but has 143 values 
+-- Insights: I've found a blank space with no name but has 143 values 
 
 -- Check the number of years in the timestamp 'ts' column
 SELECT DISTINCT EXTRACT(YEAR FROM ts) AS Years
