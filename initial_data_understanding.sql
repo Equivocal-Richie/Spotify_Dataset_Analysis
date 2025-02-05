@@ -3,9 +3,8 @@
 I'm getting to understand what I'm working with as I get more clues 
 to investigate afterwards.
 */
--- Let's view the 1st 10 rows 
-SELECT * FROM spotify_data
-LIMIT 10;
+-- Let's see the number of rows imported  
+SELECT COUNT(*) FROM spotify_data;
 
 -- Check the Number of Rows Imported
 SELECT COUNT(*) AS No_Rows
