@@ -55,7 +55,7 @@ CREATE TABLE clean_spotify_data (
     track_name VARCHAR(255),
     artist_name VARCHAR(255),
     album_name VARCHAR(255),
-    reason_start VARCHAR(255), -- Allow for potential longer reason descriptions
+    reason_start VARCHAR(255), 
     reason_end VARCHAR(255),
     shuffle BOOLEAN, -- Use BOOLEAN data type 
     skipped BOOLEAN 
