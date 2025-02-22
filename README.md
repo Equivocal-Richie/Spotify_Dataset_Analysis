@@ -136,9 +136,8 @@ This project empowers Spotify with insights to enhance user engagement. By imple
 
 I'd love to connect with you on social media and share more about my data science projects!
 
-* **LinkedIn:** [Your LinkedIn Profile URL] ![LinkedIn Icon](linkedin_icon.png)
-* **GitHub:** [Your GitHub Profile URL] ![GitHub Icon](github_icon.png)
-* **Portfolio Website:** [Your Portfolio Website URL] ![Website Icon](website_icon.png)
+* **LinkedIn:** [https://www.linkedin.com/in/richard-muchoki-2408b7205/] ![LinkedIn Icon](linkedin_icon.png)
+* **GitHub:** [https://github.com/Equivocal-Richie/] ![GitHub Icon](github_icon.png)
 
 
 ---
