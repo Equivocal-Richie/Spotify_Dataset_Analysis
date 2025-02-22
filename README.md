@@ -144,4 +144,3 @@ I'd love to connect with you on social media and share more about my data scienc
 
 ---
 
-Remember to replace the placeholder image URLs (`image_placeholder.png`) with the actual paths to your visualization images.  You can use online tools or image editing software to create the icons for your social media links.  This enhanced README will make your project more engaging and professional!
