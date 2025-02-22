@@ -1,12 +1,11 @@
 # Spotify User Engagement Enhancement: Data-Driven Insights and Recommendations 🎵
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org)
 
-**Project Overview:**
+## **Project Overview:**
 
 This project delves into Spotify's user engagement, aiming to optimize shuffle mode and boost track completion rates. We leverage data analysis to understand user listening behavior, shuffle mode impact, track completion patterns, and platform usage trends, providing actionable recommendations to enhance the user experience. 🎧
 
-**Business Use Case:**
+## **Business Use Case:**
 
 User engagement is paramount to Spotify's success.  By understanding user behavior, Spotify can:
 
@@ -15,7 +14,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 * **Improve content strategy:** Insights into popular tracks and listening patterns inform content acquisition and curation. 🎶
 * **Gain a competitive edge:** Continuous user experience optimization differentiates Spotify in the competitive market. 🚀
 
-**Project Methodology:**
+## **Project Methodology:**
 
 1. **Data Collection:** We utilize a dataset of user streaming activity, including timestamps, track details, shuffle mode, platform information, and interruption reasons. 📥
 2. **Data Cleaning and Preprocessing:** SQL is employed to clean and preprocess the raw data, handling missing values and inconsistencies. 🧹
@@ -23,7 +22,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 4. **Insight Generation:** We analyze the EDA results to extract meaningful insights related to shuffle mode, track completion, platform preferences, and listening behavior. 💡
 5. **Recommendation Development:** Data-driven recommendations are developed to improve user engagement and platform optimization. 🎯
 
-**Dataset Column Description:**
+## **Dataset Column Description:**
 
 | Column Name        | Description                                                                  |
 |-------------------|------------------------------------------------------------------------------|
@@ -39,9 +38,9 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 | `skipped`       | Boolean indicating if track was skipped.                                                            |
 
 
-**Key Insights & Recommendations:**
+## **Key Insights & Recommendations:**
 
-**1. Impact of Shuffle Mode on Listening Behavior:**
+### **1. Impact of Shuffle Mode on Listening Behavior:**
 
 * **Diversity:** Shuffle mode usage correlates with *lower* track diversity. 
     * **Visualization:** 
@@ -59,7 +58,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
         * SQL: ![Shuffle Platform Usage SQL Visualization](images/platform_usage_1.svg)
     * **Recommendation:** Prioritize shuffle mode optimization for Android, while considering usage on other platforms. 📱
 
-**2. Track Completion Rates:**
+### **2. Track Completion Rates:**
 
 * **Overall:** Completion rates are slightly higher than interruption rates, but improvement is needed.
     * **Visualization:**
@@ -77,7 +76,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
         * SQL: ![Completion Rates Platform SQL Visualization](images/platform_influence_2.svg)
     * **Recommendation:** Tailor platform-specific features based on user preferences. 💻
 
-**3. Platform Usage Trends:**
+### **3. Platform Usage Trends:**
 
 * **Playback Duration:** Mac users have the longest average playback duration.
     * **Visualization:**
@@ -90,7 +89,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
         * SQL: ![Peak Usage SQL Visualization](images/peak_usage.svg)
     * **Recommendation:** Optimize ad delivery and content promotion during peak hours. 📢
 
-**4. Timestamp-Based Insights:**
+### **4. Timestamp-Based Insights:**
 
 * **Popular Hours:** Peak streaming hours vary across platforms.
     * **Visualization:**
@@ -103,7 +102,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
         * SQL: ![Peak Hour Tracks SQL Visualization](images/peak_hours_4.svg)
     * **Recommendation:** Curate playlists and promotions around these tracks during their peak hours. 🎶
 
-**Code and File Structure:**
+## **Code and File Structure:**
 
 The repository contains the following files:
 
@@ -115,7 +114,7 @@ The repository contains the following files:
 * **`initial_data_understanding.sql`:** SQL script for initial data understanding and exploration.
 * **`spotify_dataset.csv`:** The Spotify dataset used for the analysis.
 
-**Sequential Guide to Exploring the Project:**
+## **Sequential Guide to Exploring the Project:**
 
 1. **Start with `initial_data_understanding.sql`:** This script provides a first look at the dataset's structure and content.
 2. **Proceed to `data_cleaning.sql`:** This script outlines the data cleaning and preprocessing steps.
@@ -123,16 +122,16 @@ The repository contains the following files:
 4. **Dive into `EDA.ipynb`:** This notebook contains the exploratory data analysis, visualizations, and initial insights.
 5. **Finally, review `Business_Analysis.ipynb`:** This notebook consolidates the key insights and provides the final recommendations for Spotify.
 
-**Note:** The `spotify_dataset.csv` file was downloaded using a Python script, demonstrating data acquisition capabilities.
+**Note:** The `spotify_dataset.csv` file was downloaded using a Python script in the **`ETL.ipynb`** file, demonstrating data acquisition capabilities.
 
 
-**Conclusion:**
+## **Conclusion:**
 
 This project empowers Spotify with insights to enhance user engagement. By implementing our recommendations, Spotify can optimize shuffle mode, improve completion rates, and personalize the listening experience.  Data-driven decision-making and continuous monitoring are crucial for success. 🚀
 
 ---
 
-**Follow Me!** 👋
+## **Follow Me!** 👋
 
 I'd love to connect with you on social media and share more about my data science projects!
 
