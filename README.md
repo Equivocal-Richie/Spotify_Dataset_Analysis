@@ -140,7 +140,6 @@ I'd love to connect with you on social media and share more about my data scienc
 * **GitHub:** [Your GitHub Profile URL] ![GitHub Icon](github_icon.png)
 * **Portfolio Website:** [Your Portfolio Website URL] ![Website Icon](website_icon.png)
 
-**(Add more social media links as needed with their respective icons)**
 
 ---
 
