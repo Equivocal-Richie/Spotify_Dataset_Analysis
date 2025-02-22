@@ -17,7 +17,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 ## **Project Methodology:**
 
 1. **Data Collection:** We utilize a dataset of user streaming activity, including timestamps, track details, shuffle mode, platform information, and interruption reasons. 📥
-2. **Data Cleaning and Preprocessing:** SQL is employed to clean and preprocess the raw data, handling missing values and inconsistencies. 🧹
+2. **Data Cleaning and Preprocessing:** SQL is employed to clean and preprocess the raw data, handling missing values and inconsistencies, and creating new columns like `start_time` & `end_time`. 🧹
 3. **Exploratory Data Analysis (EDA):** In-depth EDA is performed using SQL and Python (with Pandas, Matplotlib, and Seaborn) to uncover patterns and trends. 📊
 4. **Insight Generation:** We analyze the EDA results to extract meaningful insights related to shuffle mode, track completion, platform preferences, and listening behavior. 💡
 5. **Recommendation Development:** Data-driven recommendations are developed to improve user engagement and platform optimization. 🎯
