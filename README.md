@@ -46,17 +46,17 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 * **Diversity:** Shuffle mode usage correlates with *lower* track diversity. 
     * **Visualization:** 
         * Python:  ![Shuffle Diversity Python Visualization](image_placeholder.png) 
-        * SQL:  ![Shuffle Diversity SQL Visualization](image_placeholder.svg)
+        * SQL:  ![Shuffle Diversity SQL Visualization](images/diversity.svg)
     * **Recommendation:** Explore methods to enhance diversity in shuffle mode (personalized recommendations, genre diversification). 💡
 * **Interruptions:** Shuffle mode leads to significantly *higher* track interruption rates.
     * **Visualization:**
         * Python: ![Shuffle Interruptions Python Visualization](image_placeholder.png)
-        * SQL: ![Shuffle Interruptions SQL Visualization](image_placeholder.svg)
+        * SQL: ![Shuffle Interruptions SQL Visualization](images/interruption_1.svg)
     * **Recommendation:** Investigate interruption reasons and optimize shuffle algorithms for user satisfaction. 🧐
 * **Platform Usage:** Android users exhibit the highest shuffle mode usage.
     * **Visualization:**
         * Python: ![Shuffle Platform Usage Python Visualization](image_placeholder.png)
-        * SQL: ![Shuffle Platform Usage SQL Visualization](image_placeholder.svg)
+        * SQL: ![Shuffle Platform Usage SQL Visualization](images/platform_usage_1.svg)
     * **Recommendation:** Prioritize shuffle mode optimization for Android, while considering usage on other platforms. 📱
 
 **2. Track Completion Rates:**
@@ -64,17 +64,17 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 * **Overall:** Completion rates are slightly higher than interruption rates, but improvement is needed.
     * **Visualization:**
         * Python: ![Completion Rates Overall Python Visualization](image_placeholder.png)
-        * SQL: ![Completion Rates Overall SQL Visualization](image_placeholder.svg)
+        * SQL: ![Completion Rates Overall SQL Visualization](images/overall_2.svg)
     * **Recommendation:** Focus on reducing interruptions to improve completion rates. 📈
 * **Track/Artist Specific:** Specific tracks and artists have high interruption rates.
     * **Visualization:**
         * Python: ![Completion Rates Specific Python Visualization](image_placeholder.png)
-        * SQL: ![Completion Rates Specific SQL Visualization](image_placeholder.svg)
+        * SQL: ![Completion Rates Specific SQL Visualization](images/track_artist.svg)
     * **Recommendation:** Investigate and address issues with these tracks (quality, preference mismatch). 🕵️‍♀️
 * **Platform Influence:** Mac users have the highest completion rates; "cast to device" users prefer non-shuffle mode.
     * **Visualization:**
         * Python: ![Completion Rates Platform Python Visualization](image_placeholder.png)
-        * SQL: ![Completion Rates Platform SQL Visualization](image_placeholder.svg)
+        * SQL: ![Completion Rates Platform SQL Visualization](images/platform_influence_2.svg)
     * **Recommendation:** Tailor platform-specific features based on user preferences. 💻
 
 **3. Platform Usage Trends:**
@@ -82,12 +82,12 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 * **Playback Duration:** Mac users have the longest average playback duration.
     * **Visualization:**
         * Python: ![Playback Duration Python Visualization](image_placeholder.png)
-        * SQL: ![Playback Duration SQL Visualization](image_placeholder.svg)
+        * SQL: ![Playback Duration SQL Visualization](images/playback_duration_3.svg)
     * **Recommendation:** Analyze Mac user behavior and replicate successful patterns on other platforms. 🧐
 * **Peak Usage:** Usage peaks on Friday evenings and late nights/early mornings.
     * **Visualization:**
         * Python: ![Peak Usage Python Visualization](image_placeholder.png)
-        * SQL: ![Peak Usage SQL Visualization](image_placeholder.svg)
+        * SQL: ![Peak Usage SQL Visualization](images/peak_usage.svg)
     * **Recommendation:** Optimize ad delivery and content promotion during peak hours. 📢
 
 **4. Timestamp-Based Insights:**
@@ -95,12 +95,12 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 * **Popular Hours:** Peak streaming hours vary across platforms.
     * **Visualization:**
         * Python: ![Popular Hours Python Visualization](image_placeholder.png)
-        * SQL: ![Popular Hours SQL Visualization](image_placeholder.svg)
+        * SQL: ![Popular Hours SQL Visualization](images/popular_hours_4.svg)
     * **Recommendation:** Personalize content recommendations based on platform-specific peak hours. ⏰
 * **Peak Hour Tracks:** Specific tracks are popular during peak hours.
     * **Visualization:**
         * Python: ![Peak Hour Tracks Python Visualization](image_placeholder.png)
-        * SQL: ![Peak Hour Tracks SQL Visualization](image_placeholder.svg)
+        * SQL: ![Peak Hour Tracks SQL Visualization](images/peak_hours_4.svg)
     * **Recommendation:** Curate playlists and promotions around these tracks during their peak hours. 🎶
 
 **Code and File Structure:**
