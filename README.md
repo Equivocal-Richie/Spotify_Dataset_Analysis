@@ -106,7 +106,7 @@ User engagement is paramount to Spotify's success.  By understanding user behavi
 
 The repository contains the following files:
 
-* **`.ipynb_checkpoints`:** Jupyter Notebook checkpoints (for version control).
+* **`.ipynb_checkpoints`:** Jupyter Notebook checkpoints.
 * **`Business_Analysis.ipynb`:** Jupyter Notebook containing the detailed business analysis, insights, and recommendations.
 * **`EDA.ipynb`:** Jupyter Notebook with exploratory data analysis code and visualizations.
 * **`ETL.ipynb`:** Jupyter Notebook detailing the data extraction, transformation, and loading process.
